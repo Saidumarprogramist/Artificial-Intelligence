@@ -1,2 +1,17 @@
-@import "tailwindcss";
-    
+@import 'tailwindcss';
+
+a:hover {
+  color: #50a2ff;
+	transition: all 0.2s;
+}
+a{
+	transition: all 0.2s;
+}
+
+button:hover{
+	box-shadow: 0px 0px 30px 1px aqua;
+	transition: ease .5s;
+}
+button{
+	transition: ease .5s;
+}

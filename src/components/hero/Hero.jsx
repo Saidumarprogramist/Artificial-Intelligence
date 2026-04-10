@@ -5,7 +5,7 @@ import bg from "../../assets/Hero Imgs/bg.png";
 export default function Hero() {
   return (
     <>
-      <div className="bg-[#020a18] py-20">
+      <div className="bg-[#020a18] py-20 px-5">
         <div className="container flex flex-wrap justify-center gap-10 items-center">
           <div>
             <img src={photo} alt="img" />
@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="container mx-auto mt-30 space-y-30">
             <div className="flex justify-center items-center">
               <div className="w-full">
-                <div className="flex justify-center md:justify-around lg:justify-baseline xl:justify-between flex-wrap space-y-5">
+                <div className="flex justify-center md:justify-around lg:justify-baseline xl:justify-between flex-wrap space-y-5 space-x-5 md:space-x-1">
                   {InfoList1.map((i) => (
                     <div
                       className="w-70 bg-[#0f1624] text-white space-y-5 text-center p-5 rounded-2xl"
